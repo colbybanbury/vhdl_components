@@ -22,7 +22,7 @@ architecture behavioral of mux_tb is
   signal i0, i1, i2, i3, o : std_logic_vector(1 downto 0);
 begin
 -- Component instantiation
-  mux0 : mux_4_1 port map(S => s,
+  mux0 : mux port map(S => s,
                           A    => i0,
                           B    => i1,
                           C    => i2,
